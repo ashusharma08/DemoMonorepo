@@ -1,0 +1,7 @@
+<ion-slides #slides [options]="sliderOptions">
+    <!-- <ng-container > -->
+        <ion-slide width="640px" *ngFor="let item of images">
+            <img src="{{getPath(item)}}">
+        </ion-slide>
+    <!-- </ng-container> -->
+</ion-slides>
